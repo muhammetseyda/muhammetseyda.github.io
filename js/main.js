@@ -14,6 +14,54 @@
 
     };
 
+    const initializeCampaignCreation = () => {
+        // Brevo API anahtarınızı buraya yerleştirin
+        const brevoApiKey = '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';
+        const brevoApiUrl = 'https://api.brevo.com/v3/emailCampaigns';
+    
+        // Kampanya oluşturma fonksiyonu
+        const createCampaign = async (email) => {
+            const data = {
+                name: 'Campaign sent via the API',
+                subject: 'My subject',
+                sender: { name: 'Yazılımcı Sarman', email: 'yazilimcisarman@gmail.com' },
+                type: 'classic',
+                htmlContent: 'Congratulations! You successfully sent this example campaign via the Brevo API.'
+            };
+    
+            try {
+                const response = await fetch(brevoApiUrl, {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                        'api-key': brevoApiKey
+                    },
+                    body: JSON.stringify(data)
+                });
+    
+                if (!response.ok) {
+                    throw new Error('Failed to create campaign');
+                }
+            } catch (error) {
+                throw new Error('An error occurred while creating campaign:', error);
+            }
+        };
+    
+        // Form gönderimini dinleme ve kampanya oluşturma işlemi
+        document.getElementById('campaignForm').addEventListener('submit', async (event) => {
+            event.preventDefault(); // Formun varsayılan davranışını engelle
+    
+            const email = document.getElementById('email').value;
+            console.log("Deneme");
+            try {
+                await createCampaign(email);
+                alert('Campaign created successfully');
+            } catch (error) {
+                console.error('An error occurred while creating campaign:', error);
+                alert('Failed to create campaign');
+            }
+        });
+    };
     
     // initializeCampaignCreation fonksiyonunu çağırarak kampanya oluşturma işlemini başlatın
 

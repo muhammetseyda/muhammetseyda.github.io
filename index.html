@@ -106,7 +106,7 @@
 
                         <div class="s-intro__content-media"> 
                             <div class="s-intro__content-media-inner">                               
-                                <img src="images/intro-bg.jpg" srcset="images/intro-bg.jpg 1x, images/intro-bg@2x.jpg 2x" alt="">
+                                <img src="images/pp.jpeg" srcset="images/pp.jpeg 1x, images/pp@2x.jpeg 2x" alt="">
                                 <div class="lines">                               
                                     <span></span>                                  
                                 </div>
@@ -450,14 +450,14 @@
                         <li><a href="contact.html">İletişim</a></li>
                     </ul>
                 </div>
-                <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter">
+                <div class="column xl-3 lg-6 md-12 tab-12 s-footer__block s-footer__newsletter" style="display: none;">
                     <h3>Newsletter</h3>
 
                     <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facere ratione dignissimos.
                     </p>
 
-                    <div class="subscribe-form">
+                    <div class="subscribe-form" style="display: none;">
                         <form id="campaignForm" class="mc-form">
                             <input type="email" name="EMAIL" id="mce-EMAIL" class="u-fullwidth text-center" placeholder="Your Email Address" title="The domain portion of the email address is invalid (the portion after the @)." pattern="^([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x22([^\x0d\x22\x5c\x80-\xff]|\x5c[\x00-\x7f])*\x22))*\x40([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d)(\x2e([^\x00-\x20\x22\x28\x29\x2c\x2e\x3a-\x3c\x3e\x40\x5b-\x5d\x7f-\xff]+|\x5b([^\x0d\x5b-\x5d\x80-\xff]|\x5c[\x00-\x7f])*\x5d))*(\.\w{2,})+$" required>
                             <input type="submit" value="Subscribe" class="btn btn--primary btn--small u-fullwidth">
@@ -514,55 +514,5 @@
     ================================================== -->
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-<script>
-    const initializeCampaignCreation = () => {
-        // Brevo API anahtarınızı buraya yerleştirin
-        const brevoApiKey = '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';
-        const brevoApiUrl = 'https://api.brevo.com/v3/emailCampaigns';
-    
-        // Kampanya oluşturma fonksiyonu
-        const createCampaign = async (email) => {
-            const data = {
-                name: 'Campaign sent via the API',
-                subject: 'My subject',
-                sender: { name: 'Yazılımcı Sarman', email: 'yazilimcisarman@gmail.com' },
-                type: 'classic',
-                htmlContent: 'Congratulations! You successfully sent this example campaign via the Brevo API.'
-            };
-    
-            try {
-                const response = await fetch(brevoApiUrl, {
-                    method: 'POST',
-                    headers: {
-                        'Content-Type': 'application/json',
-                        'api-key': brevoApiKey
-                    },
-                    body: JSON.stringify(data)
-                });
-    
-                if (!response.ok) {
-                    throw new Error('Failed to create campaign');
-                }
-            } catch (error) {
-                throw new Error('An error occurred while creating campaign:', error);
-            }
-        };
-    
-        // Form gönderimini dinleme ve kampanya oluşturma işlemi
-        document.getElementById('campaignForm').addEventListener('submit', async (event) => {
-            event.preventDefault(); // Formun varsayılan davranışını engelle
-    
-            const email = document.getElementById('email').value;
-            console.log("Deneme");
-            try {
-                await createCampaign(email);
-                alert('Campaign created successfully');
-            } catch (error) {
-                console.error('An error occurred while creating campaign:', error);
-                alert('Failed to create campaign');
-            }
-        });
-    };
-</script>
 </body>
 </html>
