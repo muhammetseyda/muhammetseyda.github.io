@@ -4096,6 +4096,10 @@ td:last-child {
 	transform     : scale(0.95);
 	transition    : all 0.5s ease-in;
 	vertical-align: bottom;
+	vertical-align: bottom;
+
+	height        : 60px; /* Örneğin 100 piksel yükseklik */
+
 }
 
 .clients-list__item:nth-child(n) {
