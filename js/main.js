@@ -14,6 +14,9 @@
 
     };
 
+    
+    // initializeCampaignCreation fonksiyonunu çağırarak kampanya oluşturma işlemini başlatın
+
 
    /* preloader
     * -------------------------------------------------- */
@@ -143,6 +146,9 @@
         });
 
     }; // end ssSwiper
+
+
+
 
 
    /* mailchimp form
