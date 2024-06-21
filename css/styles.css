@@ -107,6 +107,7 @@
 	--color-1: hsla(35, 87%, 49%, 1);
 	--color-2: hsla(127, 8%, 22%, 1);
 	--color-3: hsla(39, 93%, 95%, 1);
+	--color-4: hsla(0, 0%, 0%, 0);
 
   /* theme color variations
    */
@@ -170,6 +171,7 @@
   /* text
    */
 	--color-text                   : var(--color-gray-18);
+	--color-text1                   : var(--color-black);
 	--color-text-dark              : #181818;
 	--color-text-light             : var(--color-gray-14);
 	--color-placeholder            : var(--color-gray-12);
@@ -3987,10 +3989,12 @@ td:last-child {
 	justify-content: center;
 }
 
+
 .s-about__social svg path,
 .s-about__social svg circle {
 	fill: var(--color-3);
 }
+
 
 /* ------------------------------------------------------------------- 
  * responsive:
@@ -4733,6 +4737,9 @@ td:last-child {
 
 .contact-social svg path {
 	fill: var(--color-text);
+}
+.contact-social1 svg path {
+	fill: var(--color-text1);
 }
 
 .contact-list {
