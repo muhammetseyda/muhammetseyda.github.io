@@ -1,4 +1,4 @@
-const usernames = ['yazilimcisarman', 'muhammetseyda'];
+const usernames = ['muhammetseyda', 'yazilimcisarman'];
 
 async function fetchRepos() {
     try {
