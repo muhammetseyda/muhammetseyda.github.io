@@ -1,0 +1,430 @@
+{
+    "categories": [
+        {
+            "name": "Kahvaltı",
+            "items": {
+                "yiyecekler": [
+                    {
+                        "id": 1,
+                        "name": "Klasik Omlet",
+                        "description": "Yumurta, süt, tuz, karabiber",
+                        "price": 20,
+                        "image": "omlet_klasik.jpg"
+                    },
+                    {
+                        "id": 2,
+                        "name": "Peynirli Omlet",
+                        "description": "Yumurta, peynir, süt, tuz, karabiber",
+                        "price": 25,
+                        "image": "omlet_peynirli.jpg"
+                    },
+                    {
+                        "id": 3,
+                        "name": "Sebzeli Omlet",
+                        "description": "Yumurta, sebze karışımı, süt, tuz, karabiber",
+                        "price": 27,
+                        "image": "omlet_sebzeli.jpg"
+                    },
+                    {
+                        "id": 4,
+                        "name": "Kahvaltı Tabağı",
+                        "description": "Peynir, zeytin, domates, salatalık, reçel, tereyağı, bal, ekmek",
+                        "price": 35,
+                        "image": "kahvalti_tabagi.jpg"
+                    },
+                    {
+                        "id": 5,
+                        "name": "Klasik Menemen",
+                        "description": "Yumurta, domates, biber, soğan",
+                        "price": 22,
+                        "image": "menemen_klasik.jpg"
+                    },
+                    {
+                        "id": 6,
+                        "name": "Sucuklu Menemen",
+                        "description": "Yumurta, domates, biber, soğan, sucuk",
+                        "price": 28,
+                        "image": "menemen_sucuklu.jpg"
+                    },
+                    {
+                        "id": 7,
+                        "name": "Tatlı Krep",
+                        "description": "Un, süt, yumurta, çikolata sosu, meyve",
+                        "price": 30,
+                        "image": "krep_tatli.jpg"
+                    },
+                    {
+                        "id": 8,
+                        "name": "Tuzlu Krep",
+                        "description": "Un, süt, yumurta, peynir, ıspanak",
+                        "price": 32,
+                        "image": "krep_tuzlu.jpg"
+                    }
+                ],
+                "içecekler": [
+                    {
+                        "id": 9,
+                        "name": "Siyah Çay",
+                        "description": "Demlenmiş siyah çay",
+                        "price": 5,
+                        "image": "cay_siyah.jpg"
+                    },
+                    {
+                        "id": 10,
+                        "name": "Yeşil Çay",
+                        "description": "Demlenmiş yeşil çay",
+                        "price": 6,
+                        "image": "cay_yesil.jpg"
+                    },
+                    {
+                        "id": 11,
+                        "name": "Bitki Çayı",
+                        "description": "Farklı bitki çayı seçenekleri",
+                        "price": 7,
+                        "image": "cay_bitki.jpg"
+                    },
+                    {
+                        "id": 12,
+                        "name": "Türk Kahvesi",
+                        "description": "Geleneksel Türk kahvesi",
+                        "price": 10,
+                        "image": "kahve_turk.jpg"
+                    },
+                    {
+                        "id": 13,
+                        "name": "Espresso",
+                        "description": "Güçlü espresso kahvesi",
+                        "price": 12,
+                        "image": "kahve_espresso.jpg"
+                    },
+                    {
+                        "id": 14,
+                        "name": "Cappuccino",
+                        "description": "Sütlü kahve",
+                        "price": 15,
+                        "image": "kahve_cappuccino.jpg"
+                    },
+                    {
+                        "id": 15,
+                        "name": "Portakal Suyu",
+                        "description": "Taze sıkılmış portakal suyu",
+                        "price": 8,
+                        "image": "meyve_suyu_portakal.jpg"
+                    },
+                    {
+                        "id": 16,
+                        "name": "Elma Suyu",
+                        "description": "Taze sıkılmış elma suyu",
+                        "price": 8,
+                        "image": "meyve_suyu_elma.jpg"
+                    },
+                    {
+                        "id": 17,
+                        "name": "Sade Süt",
+                        "description": "Soğuk sade süt",
+                        "price": 5,
+                        "image": "sut_sade.jpg"
+                    },
+                    {
+                        "id": 18,
+                        "name": "Çikolatalı Süt",
+                        "description": "Soğuk çikolatalı süt",
+                        "price": 6,
+                        "image": "sut_cikolatali.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Öğle",
+            "items": {
+                "yiyecekler": [
+                    {
+                        "id": 19,
+                        "name": "Tavuklu Sandviç",
+                        "description": "Izgara tavuk, marul, domates, sos",
+                        "price": 25,
+                        "image": "sandvic_tavuklu.jpg"
+                    },
+                    {
+                        "id": 20,
+                        "name": "Ton Balıklı Sandviç",
+                        "description": "Ton balığı, marul, domates, sos",
+                        "price": 27,
+                        "image": "sandvic_ton.jpg"
+                    },
+                    {
+                        "id": 21,
+                        "name": "Vejetaryen Sandviç",
+                        "description": "Sebze karışımı, marul, domates, sos",
+                        "price": 23,
+                        "image": "sandvic_vejetaryen.jpg"
+                    },
+                    {
+                        "id": 22,
+                        "name": "Sezar Salatası",
+                        "description": "Marul, parmesan, kruton, sezar sos",
+                        "price": 30,
+                        "image": "salata_sezar.jpg"
+                    },
+                    {
+                        "id": 23,
+                        "name": "Akdeniz Salatası",
+                        "description": "Marul, zeytin, domates, salatalık, beyaz peynir",
+                        "price": 28,
+                        "image": "salata_akdeniz.jpg"
+                    },
+                    {
+                        "id": 24,
+                        "name": "Tavuklu Salata",
+                        "description": "Izgara tavuk, marul, domates, salatalık",
+                        "price": 32,
+                        "image": "salata_tavuklu.jpg"
+                    },
+                    {
+                        "id": 25,
+                        "name": "Izgara Tavuk",
+                        "description": "Izgara tavuk göğsü, pilav, sebze",
+                        "price": 35,
+                        "image": "ana_yemek_izgara_tavuk.jpg"
+                    },
+                    {
+                        "id": 26,
+                        "name": "Köfte",
+                        "description": "Izgara köfte, pilav, sebze",
+                        "price": 33,
+                        "image": "ana_yemek_kofte.jpg"
+                    },
+                    {
+                        "id": 27,
+                        "name": "Napoliten Makarna",
+                        "description": "Napoliten soslu makarna",
+                        "price": 25,
+                        "image": "makarna_napoliten.jpg"
+                    },
+                    {
+                        "id": 28,
+                        "name": "Alfredo Makarna",
+                        "description": "Alfredo soslu makarna",
+                        "price": 28,
+                        "image": "makarna_alfredo.jpg"
+                    },
+                    {
+                        "id": 29,
+                        "name": "Margherita Pizza",
+                        "description": "Mozzarella, domates sosu, fesleğen",
+                        "price": 40,
+                        "image": "pizza_margherita.jpg"
+                    },
+                    {
+                        "id": 30,
+                        "name": "Pepperoni Pizza",
+                        "description": "Pepperoni, mozzarella, domates sosu",
+                        "price": 45,
+                        "image": "pizza_pepperoni.jpg"
+                    },
+                    {
+                        "id": 31,
+                        "name": "Dört Peynirli Pizza",
+                        "description": "Mozzarella, gorgonzola, parmesan, rokfor",
+                        "price": 50,
+                        "image": "pizza_dort_peynirli.jpg"
+                    }
+                ],
+                "içecekler": [
+                    {
+                        "id": 32,
+                        "name": "Limonlu Soda",
+                        "description": "Limon aromalı soda",
+                        "price": 7,
+                        "image": "soda_limonlu.jpg"
+                    },
+                    {
+                        "id": 33,
+                        "name": "Doğal Maden Suyu",
+                        "description": "Doğal maden suyu",
+                        "price": 5,
+                        "image": "soda_dogal.jpg"
+                    },
+                    {
+                        "id": 34,
+                        "name": "Nar Suyu",
+                        "description": "Taze sıkılmış nar suyu",
+                        "price": 10,
+                        "image": "meyve_suyu_nar.jpg"
+                    },
+                    {
+                        "id": 35,
+                        "name": "Vişne Suyu",
+                        "description": "Taze sıkılmış vişne suyu",
+                        "price": 10,
+                        "image": "meyve_suyu_visne.jpg"
+                    },
+                    {
+                        "id": 36,
+                        "name": "Kola",
+                        "description": "Kutu kola",
+                        "price": 7,
+                        "image": "gazli_icecek_kola.jpg"
+                    },
+                    {
+                        "id": 37,
+                        "name": "Gazoz",
+                        "description": "Kutu gazoz",
+                        "price": 7,
+                        "image": "gazli_icecek_gazoz.jpg"
+                    },
+                    {
+                        "id": 38,
+                        "name": "Buzlu Çay (Şeftali)",
+                        "description": "Şeftali aromalı buzlu çay",
+                        "price": 8,
+                        "image": "buzlu_cay_seftali.jpg"
+                    },
+                    {
+                        "id": 39,
+                        "name": "Buzlu Çay (Limon)",
+                        "description": "Limon aromalı buzlu çay",
+                        "price": 8,
+                        "image": "buzlu_cay_limon.jpg"
+                    }
+                ]
+            }
+        },
+        {
+            "name": "Akşam",
+            "items": {
+                "yiyecekler": [
+                    {
+                        "id": 40,
+                        "name": "Mercimek Çorbası",
+                        "description": "Mercimek, soğan, havuç, baharatlar",
+                        "price": 18,
+                        "image": "corba_mercimek.jpg"
+                    },
+                    {
+                        "id": 41,
+                        "name": "Domates Çorbası",
+                        "description": "Domates, soğan, baharatlar, krema",
+                        "price": 18,
+                        "image": "corba_domates.jpg"
+                    },
+                    {
+                        "id": 42,
+                        "name": "Izgara Biftek",
+                        "description": "Izgara biftek, patates püresi, sebze",
+                        "price": 60,
+                        "image": "ana_yemek_biftek.jpg"
+                    },
+                    {
+                        "id": 43,
+                        "name": "Kuzu Pirzola",
+                        "description": "Izgara kuzu pirzola, pilav, sebze",
+                        "price": 65,
+                        "image": "ana_yemek_kuzu.jpg"
+                    },
+                    {
+                        "id": 44,
+                        "name": "Levrek Izgara",
+                        "description": "Izgara levrek, roka salatası, limon",
+                        "price": 55,
+                        "image": "ana_yemek_levrek.jpg"
+                    },
+                    {
+                        "id": 45,
+                        "name": "Patates Kızartması",
+                        "description": "Kızarmış patates dilimleri",
+                        "price": 15,
+                        "image": "yan_lezzet_patates.jpg"
+                    },
+                    {
+                        "id": 46,
+                        "name": "Sebze Sote",
+                        "description": "Karışık sebzelerin sotelenmesi",
+                        "price": 20,
+                        "image": "yan_lezzet_sebze.jpg"
+                    },
+                    {
+                        "id": 47,
+                        "name": "Profiterol",
+                        "description": "Profiterol topları, çikolata sosu",
+                        "price": 25,
+                        "image": "tatli_profiterol.jpg"
+                    },
+                    {
+                        "id": 48,
+                        "name": "Sufle",
+                        "description": "Çikolatalı sıcak sufle",
+                        "price": 28,
+                        "image": "tatli_sufle.jpg"
+                    },
+                    {
+                        "id": 49,
+                        "name": "Tiramisu",
+                        "description": "Kahve aromalı İtalyan tatlısı",
+                        "price": 30,
+                        "image": "tatli_tiramisu.jpg"
+                    }
+                ],
+                "içecekler": [
+                    {
+                        "id": 50,
+                        "name": "Kırmızı Şarap",
+                        "description": "Bir kadeh kırmızı şarap",
+                        "price": 40,
+                        "image": "alkollu_sarap_kirmizi.jpg"
+                    },
+                    {
+                        "id": 51,
+                        "name": "Beyaz Şarap",
+                        "description": "Bir kadeh beyaz şarap",
+                        "price": 40,
+                        "image": "alkollu_sarap_beyaz.jpg"
+                    },
+                    {
+                        "id": 52,
+                        "name": "Lager Bira",
+                        "description": "Bir şişe lager bira",
+                        "price": 25,
+                        "image": "alkollu_bira_lager.jpg"
+                    },
+                    {
+                        "id": 53,
+                        "name": "Ale Bira",
+                        "description": "Bir şişe ale bira",
+                        "price": 25,
+                        "image": "alkollu_bira_ale.jpg"
+                    },
+                    {
+                        "id": 54,
+                        "name": "Meyve Kokteyli",
+                        "description": "Çeşitli meyve suları karışımı",
+                        "price": 20,
+                        "image": "alkolsuz_kokteyl.jpg"
+                    },
+                    {
+                        "id": 55,
+                        "name": "Soda",
+                        "description": "Doğal maden suyu",
+                        "price": 5,
+                        "image": "soda_dogal.jpg"
+                    },
+                    {
+                        "id": 56,
+                        "name": "Mojito",
+                        "description": "Nane, limon, şeker, soda, rom",
+                        "price": 35,
+                        "image": "kokteyl_mojito.jpg"
+                    },
+                    {
+                        "id": 57,
+                        "name": "Margarita",
+                        "description": "Tekila, lime, triple sec",
+                        "price": 35,
+                        "image": "kokteyl_margarita.jpg"
+                    }
+                ]
+            }
+        }
+    ]
+}
