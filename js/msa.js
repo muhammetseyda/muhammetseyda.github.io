@@ -8,7 +8,7 @@ async function fetchRepos() {
 
             const reposContainer = document.getElementById('repos');
             repos.forEach(repo => {
-                if (repo.stargazers_count > 0) {
+                if (repo.description != null) {
                 const repoElement = document.createElement('div');
                 repoElement.classList.add('grid-list-items__item', 'list-items__item');
                 repoElement.style.marginBottom = '100px'; 
