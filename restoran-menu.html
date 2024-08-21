@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tab-pane {
+    display: none; /* Gizli olan tabları görünmez yapar */
+}
+
+.tab-pane.active {
+    display: block; /* Sadece aktif olan tabı gösterir */
+}
+    </style>
+</head>
+<body>
+    <div class="container" style="border-color: black;border-width: 1px; margin: 20px; width: 500px; border-style: solid;" >
+
+        <div class="titlecontainer" style="flex-direction: row;display: flex;">
+            <div class="image" style="border-radius: 25px; width: 100px; height: 100px;">
+                <img src="logo.jpg" alt="logo" width="100" height="100" style="border-radius: 30px;">
+            </div>
+            <div class="title" style="align-content: center; padding-left: 20px;">
+                <h3>Yazılımcı Sarman Cafe <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#sepetModal">
+                    Sepet <span id="sepet-count" class="badge bg-secondary">0</span>
+                </button></i> Sepet
+                </button></h3>
+            </div>
+
+        </div>
+        <div class="description">
+            <p >Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id ratione rerum expedita harum. Omnis vel ratione officia pariatur aut, dolorem doloribus perferendis cumque excepturi aspernatur, illo obcaecati voluptate, nisi autem?</p>
+        </div>
+        <div class="menu" >
+            <ul class="nav nav-tabs" id="myTabust" role="tablist" style="display: flex; justify-content: center; padding: 0;">
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link active" id="sabah-tab" data-bs-toggle="tab" data-bs-target="#sabah-tab-pane" type="button" role="tab" aria-controls="sabah-tab-pane" aria-selected="true">Sabah</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="ögle-tab" data-bs-toggle="tab" data-bs-target="#ögle-tab-pane" type="button" role="tab" aria-controls="ögle-tab-pane" aria-selected="false">Öğle</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                    <button class="nav-link" id="aksam-tab" data-bs-toggle="tab" data-bs-target="#aksam-tab-pane" type="button" role="tab" aria-controls="aksam-tab-pane" aria-selected="false">Akşam</button>
+                </li>
+            </ul>
+              <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade show active" id="sabah-tab-pane" role="tabpanel" aria-labelledby="sabah-tab" tabindex="0">
+                    <ul class="nav nav-tabs" id="myTabalt" role="tablist" style="display: flex; justify-content: center; padding: 0;">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="sabahyiyecek-tab" data-bs-toggle="tab" data-bs-target="#sabahyiyecek-tab-pane" type="button" role="tab" aria-controls="sabahyiyecek-tab-pane" aria-selected="true">SabahYiyeceklers</button>
+                        </li>
+                        <li class="nav-item" role="presentation"> 
+                            <button class="nav-link" id="sabahicecek-tab" data-bs-toggle="tab" data-bs-target="#sabahicecek-tab-pane" type="button" role="tab" aria-controls="sabahicecek-tab-pane" aria-selected="false">Sabahİçecekler</button>
+                        </li>
+                    </ul>
+                    <div class="tab-pane fade show active" id="sabahyiyecek-tab-pane" role="tabpanel" aria-labelledby="yiyecek-tab" tabindex="0">
+                        <div class="sabahyiyecek" style="  padding: 5px;">
+                            <!-- <div class="tekurun" style="  padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;">
+                                <div class="tekurungörsel" >
+                                    <img src="logo.jpg" alt="logo" width="70" height="70" style="margin: 10px;">
+                                </div>
+                                <div class="tekurundesc" >
+                                    <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                                        <h3>Urunadı</h3>
+                                        <h5>Urunacıklama</h5>
+                                    </div>
+                                </div>
+                                <div class="tekurunfiyat" style="align-content: center; padding: 20px;">
+                                    <h6>fiyat</h6>
+                                </div>
+                                <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                                    <button class="btn btn-primary" onclick="console.log(12);">Sepete ekle</button>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                    <div class="tab-pane fade" id="sabahicecek-tab-pane" role="tabpanel" aria-labelledby="icecek-tab" tabindex="0">
+                        <div class="sabahicecekler" style="  padding: 5px;"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="ögle-tab-pane" role="tabpanel" aria-labelledby="ögle-tab" tabindex="0">
+                    <ul class="nav nav-tabs" id="myTabalt" role="tablist" style="display: flex; justify-content: center; padding: 0;">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="ögleyiyecek-tab" data-bs-toggle="tab" data-bs-target="#ögleyiyecek-tab-pane" type="button" role="tab" aria-controls="ögleyiyecek-tab-pane" aria-selected="false">ögleYiyeceklers</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="ögleicecek-tab" data-bs-toggle="tab" data-bs-target="#ögleicecek-tab-pane" type="button" role="tab" aria-controls="ögleicecek-tab-pane" aria-selected="false">ögleİçecekler</button>
+                        </li>
+                    </ul>
+                    <div class="tab-pane fade show active" id="ögleyiyecek-tab-pane" role="tabpanel" aria-labelledby="yiyecek-tab" tabindex="0">
+                        <div class="ögleyiyecek" style="  padding: 5px;"></div>
+                    </div>
+                    <div class="tab-pane fade" id="ögleicecek-tab-pane" role="tabpanel" aria-labelledby="icecek-tab" tabindex="0">
+                        <div class="ögleicecekler" style="  padding: 5px;"></div>
+                    </div>
+                </div>
+                <div class="tab-pane fade" id="aksam-tab-pane" role="tabpanel" aria-labelledby="aksam-tab" tabindex="0">
+                    <ul class="nav nav-tabs" id="myTabalt" role="tablist" style="display: flex; justify-content: center; padding: 0;">
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link active" id="aksamyiyecek-tab" data-bs-toggle="tab" data-bs-target="#aksamyiyecek-tab-pane" type="button" role="tab" aria-controls="aksamyiyecek-tab-pane" aria-selected="false">aksamYiyeceklers</button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button class="nav-link" id="aksamicecek-tab" data-bs-toggle="tab" data-bs-target="#aksamicecek-tab-pane" type="button" role="tab" aria-controls="aksamicecek-tab-pane" aria-selected="false">aksamİçecekler</button>
+                        </li>
+                    </ul>
+                    <div class="tab-pane fade show active" id="aksamyiyecek-tab-pane" role="tabpanel" aria-labelledby="yiyecek-tab" tabindex="0">
+                        <div class="aksamyiyecek" style="  padding: 5px;"></div>
+                    </div>
+                    <div class="tab-pane fade" id="aksamicecek-tab-pane" role="tabpanel" aria-labelledby="icecek-tab" tabindex="0">
+                        <div class="aksamicecekler" style="  padding: 5px;"></div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </div>
+    <div class="modal fade" id="urunModal" tabindex="-1" aria-labelledby="urunModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="urunModalLabel">Ürün Detayları</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <!-- Ürün Detayları Burada Görüntülenecek -->
+              <img id="modalUrunGorsel" src="" alt="Ürün Görseli" width="100%">
+              <h3 id="modalUrunAdi"></h3>
+              <h5 id="modalUrunAciklama"></h5>
+              <h6 id="modalUrunFiyat"></h6>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="sepetModal" tabindex="-1" aria-labelledby="sepetModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="sepetModalLabel">Sepetim</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="sepet-icerik"></div>
+                    <div class="d-flex justify-content-between">
+                        <h5>Toplam: <span id="toplam-tutar">0</span> TL</h5>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Kapat</button>
+                    <button type="button" class="btn btn-primary">Satın Al</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+fetch('https://muhammetseyda.github.io/restoran-menu.json')
+    .then(response => response.json())
+    .then(data => {
+        // Kahvaltı kategorisindeki yiyecekleri al
+        const kahvaltiYiyecekler = data.categories.find(category => category.name === "Kahvaltı").items.yiyecekler;
+        const kahvaltiicecekler = data.categories.find(category => category.name === "Kahvaltı").items.içecekler;
+        const ögleYiyecekler = data.categories.find(category => category.name === "Öğle").items.yiyecekler;
+        const ögleicecekler = data.categories.find(category => category.name === "Öğle").items.içecekler;
+        const aksamYiyecekler = data.categories.find(category => category.name === "Akşam").items.yiyecekler;
+        const aksamicecekler = data.categories.find(category => category.name === "Akşam").items.içecekler;
+
+
+        
+        // Her bir yiyecek için HTML oluştur
+        kahvaltiYiyecekler.forEach(urun => {
+            const urunHTML = `
+                <div class="tekurun" style="padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;">
+                    <div class="tekurungörsel" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <img src="${urun.image}" alt="${urun.name}" width="70" height="70" style="margin: 10px;">
+                    </div>
+                    <div class="tekurundesc" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                            <h3>${urun.name}</h3>
+                            <h5>${urun.description}</h5>
+                        </div>
+                    </div>
+                    <div class="tekurunfiyat" style="align-content: center; padding: 20px;" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <h6>${urun.price} TL</h6>
+                    </div>
+                    <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                        <button class="btn btn-primary" onclick="urunSepeteEkle(${urun.id}, '${urun.name}', ${urun.price}, '${urun.image}');">Sepete ekle</button>
+                    </div>
+                </div>
+            `;
+            // Bu HTML'i sabah yiyecekler tabına ekle
+            document.querySelector('#sabahyiyecek-tab-pane .sabahyiyecek').innerHTML += urunHTML;
+        });
+        kahvaltiicecekler.forEach(urun => {
+            const urunHTML = `
+                <div class="tekurun" style="padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;" >
+                    <div class="tekurungörsel" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <img src="${urun.image}" alt="${urun.name}" width="70" height="70" style="margin: 10px;">
+                    </div>
+                    <div class="tekurundesc" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                            <h3>${urun.name}</h3>
+                            <h5>${urun.description}</h5>
+                        </div>
+                    </div>
+                    <div class="tekurunfiyat" style="align-content: center; padding: 20px;" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <h6>${urun.price} TL</h6>
+                    </div>
+                    <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                        <button class="btn btn-primary" onclick="urunSepeteEkle(${urun.id}, '${urun.name}', ${urun.price}, '${urun.image}');">Sepete ekle</button>
+                    </div>
+                </div>
+            `;
+            // Bu HTML'i sabah yiyecekler tabına ekle
+            document.querySelector('#sabahicecek-tab-pane .sabahicecekler').innerHTML += urunHTML;
+        });
+        ögleYiyecekler.forEach(urun => {
+            const urunHTML = `
+                <div class="tekurun" style="padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;">
+                    <div class="tekurungörsel" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <img src="${urun.image}" alt="${urun.name}" width="70" height="70" style="margin: 10px;">
+                    </div>
+                    <div class="tekurundesc" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                            <h3>${urun.name}</h3>
+                            <h5>${urun.description}</h5>
+                        </div>
+                    </div>
+                    <div class="tekurunfiyat" style="align-content: center; padding: 20px;" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <h6>${urun.price} TL</h6>
+                    </div>
+                    <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                        <button class="btn btn-primary" onclick="urunSepeteEkle(${urun.id}, '${urun.name}', ${urun.price}, '${urun.image}');">Sepete ekle</button>
+                    </div>
+                </div>
+            `;
+            // Bu HTML'i sabah yiyecekler tabına ekle
+            document.querySelector('#ögleyiyecek-tab-pane .ögleyiyecek').innerHTML += urunHTML;
+        });
+        ögleicecekler.forEach(urun => {
+            const urunHTML = `
+                <div class="tekurun" style="padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;">
+                    <div class="tekurungörsel" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <img src="${urun.image}" alt="${urun.name}" width="70" height="70" style="margin: 10px;">
+                    </div>
+                    <div class="tekurundesc" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                            <h3>${urun.name}</h3>
+                            <h5>${urun.description}</h5>
+                        </div>
+                    </div>
+                    <div class="tekurunfiyat" style="align-content: center; padding: 20px;" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <h6>${urun.price} TL</h6>
+                    </div>
+                    <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                        <button class="btn btn-primary" onclick="urunSepeteEkle(${urun.id}, '${urun.name}', ${urun.price}, '${urun.image}');">Sepete ekle</button>
+                    </div>
+                </div>
+            `;
+            // Bu HTML'i sabah yiyecekler tabına ekle
+            document.querySelector('#ögleicecek-tab-pane .ögleicecekler').innerHTML += urunHTML;
+        });
+        aksamYiyecekler.forEach(urun => {
+            const urunHTML = `
+                <div class="tekurun" style="padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;">
+                    <div class="tekurungörsel" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <img src="${urun.image}" alt="${urun.name}" width="70" height="70" style="margin: 10px;">
+                    </div>
+                    <div class="tekurundesc" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                            <h3>${urun.name}</h3>
+                            <h5>${urun.description}</h5>
+                        </div>
+                    </div>
+                    <div class="tekurunfiyat" style="align-content: center; padding: 20px;" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <h6>${urun.price} TL</h6>
+                    </div>
+                    <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                        <button class="btn btn-primary" onclick="urunSepeteEkle(${urun.id}, '${urun.name}', ${urun.price}, '${urun.image}');">Sepete ekle</button>
+                    </div>
+                </div>
+            `;
+            // Bu HTML'i sabah yiyecekler tabına ekle
+            document.querySelector('#aksamyiyecek-tab-pane .aksamyiyecek').innerHTML += urunHTML;
+        });
+        aksamicecekler.forEach(urun => {
+            const urunHTML = `
+                <div class="tekurun" style="padding: 5px; flex-direction: row;display: flex; margin-bottom: 20px; border-color: black; border-width: 1px; border-style: solid;">
+                    <div class="tekurungörsel" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <img src="${urun.image}" alt="${urun.name}" width="70" height="70" style="margin: 10px;">
+                    </div>
+                    <div class="tekurundesc" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <div class="tekuruntitledesc" style="align-content: center; padding-left: 20px; width: 200px;">
+                            <h3>${urun.name}</h3>
+                            <h5>${urun.description}</h5>
+                        </div>
+                    </div>
+                    <div class="tekurunfiyat" style="align-content: center; padding: 20px;" onclick="urunDetaylariniGoster('${urun.name}', '${urun.description}', '${urun.price}', '${urun.image}')">
+                        <h6>${urun.price} TL</h6>
+                    </div>
+                    <div class="tekurunsepet" style="align-content: center; padding: 15px;">
+                        <button class="btn btn-primary" onclick="urunSepeteEkle(${urun.id}, '${urun.name}', ${urun.price}, '${urun.image}');">Sepete ekle</button>
+                    </div>
+                </div>
+            `;
+            // Bu HTML'i sabah yiyecekler tabına ekle
+            document.querySelector('#aksamicecek-tab-pane .aksamicecekler').innerHTML += urunHTML;
+        });
+        
+    })
+    .catch(error => console.error('Veri alınırken hata oluştu:', error));
+
+    </script>
+    <script>
+        function urunDetaylariniGoster(name, description, price, image) {
+    // Modal içeriğini doldur
+    document.getElementById('modalUrunGorsel').src = image;
+    document.getElementById('modalUrunAdi').textContent = name;
+    document.getElementById('modalUrunAciklama').textContent = description;
+    document.getElementById('modalUrunFiyat').textContent = price + ' TL';
+
+    // Modalı göster
+    var urunModal = new bootstrap.Modal(document.getElementById('urunModal'));
+    urunModal.show();
+}
+    </script>
+    <script>
+let sepet = [];
+
+function urunSepeteEkle(id, name, price, image) {
+    const mevcutUrun = sepet.find(item => item.id === id);
+    if (mevcutUrun) {
+        mevcutUrun.adet++;
+    } else {
+        sepet.push({ id, name, price, image, adet: 1 });
+    }
+    sepetGuncelle();
+}
+
+function sepetGuncelle() {
+    const sepetIcerik = document.getElementById('sepet-icerik');
+    const toplamTutarSpan = document.getElementById('toplam-tutar');
+    const sepetCount = document.getElementById('sepet-count');
+
+    sepetIcerik.innerHTML = '';
+    let toplamTutar = 0;
+
+    sepet.forEach(item => {
+        const urunTutar = item.price * item.adet;
+        toplamTutar += urunTutar;
+
+        const urunHTML = `
+            <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <h6>${item.name}</h6>
+                    <p>${item.price} TL x <input type="number" value="${item.adet}" min="1" class="adet-input" data-id="${item.id}" style="width: 50px;"> = ${urunTutar} TL</p>
+                </div>
+                <button class="btn btn-danger btn-sm" onclick="urunCikar(${item.id})">Kaldır</button>
+            </div>
+        `;
+        sepetIcerik.innerHTML += urunHTML;
+    });
+
+    toplamTutarSpan.textContent = toplamTutar.toFixed(2);
+    sepetCount.textContent = sepet.length;
+
+    // Adet değiştirme olayını bağla
+    document.querySelectorAll('.adet-input').forEach(input => {
+        input.addEventListener('change', adetDegistir);
+    });
+}
+
+function urunCikar(urunId) {
+    sepet = sepet.filter(item => item.id !== urunId);
+    sepetGuncelle();
+}
+
+function adetDegistir(event) {
+    const urunId = parseInt(event.target.getAttribute('data-id'));
+    const yeniAdet = parseInt(event.target.value);
+
+    if (yeniAdet <= 0) {
+        urunCikar(urunId);
+    } else {
+        const urun = sepet.find(item => item.id === urunId);
+        if (urun) {
+            urun.adet = yeniAdet;
+        }
+    }
+    sepetGuncelle();
+}
+
+    </script>
+</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
