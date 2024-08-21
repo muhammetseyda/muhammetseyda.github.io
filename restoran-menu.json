@@ -9,56 +9,56 @@
                         "name": "Klasik Omlet",
                         "description": "Yumurta, süt, tuz, karabiber",
                         "price": 20,
-                        "image": "omlet_klasik.jpg"
+                        "image": "https://images.pexels.com/photos/6294354/pexels-photo-6294354.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     },
                     {
                         "id": 2,
                         "name": "Peynirli Omlet",
                         "description": "Yumurta, peynir, süt, tuz, karabiber",
                         "price": 25,
-                        "image": "omlet_peynirli.jpg"
+                        "image": "https://images.pexels.com/photos/1437268/pexels-photo-1437268.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     },
                     {
                         "id": 3,
                         "name": "Sebzeli Omlet",
                         "description": "Yumurta, sebze karışımı, süt, tuz, karabiber",
                         "price": 27,
-                        "image": "omlet_sebzeli.jpg"
+                        "image": "https://images.pexels.com/photos/6294360/pexels-photo-6294360.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                     },
                     {
                         "id": 4,
                         "name": "Kahvaltı Tabağı",
                         "description": "Peynir, zeytin, domates, salatalık, reçel, tereyağı, bal, ekmek",
                         "price": 35,
-                        "image": "kahvalti_tabagi.jpg"
+                        "image": "https://www.gulluoglukubban.com/templates/restaurant/upload/images/products/767x639/kahvalti_tabagi.jpg"
                     },
                     {
                         "id": 5,
                         "name": "Klasik Menemen",
                         "description": "Yumurta, domates, biber, soğan",
                         "price": 22,
-                        "image": "menemen_klasik.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2023/10/soganli-menemen-yemekcom.jpg"
                     },
                     {
                         "id": 6,
                         "name": "Sucuklu Menemen",
                         "description": "Yumurta, domates, biber, soğan, sucuk",
                         "price": 28,
-                        "image": "menemen_sucuklu.jpg"
+                        "image": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/ykvmayiswebsite23.webp"
                     },
                     {
                         "id": 7,
                         "name": "Tatlı Krep",
                         "description": "Un, süt, yumurta, çikolata sosu, meyve",
                         "price": 30,
-                        "image": "krep_tatli.jpg"
+                        "image": "https://image.hurimg.com/i/hurriyet/75/0x0/5c10b7430f254418d86cee28.jpg"
                     },
                     {
                         "id": 8,
                         "name": "Tuzlu Krep",
                         "description": "Un, süt, yumurta, peynir, ıspanak",
                         "price": 32,
-                        "image": "krep_tuzlu.jpg"
+                        "image": "https://i.nefisyemektarifleri.com/2009/10/krep-tarifi-fotografi-1.jpg"
                     }
                 ],
                 "içecekler": [
@@ -67,70 +67,70 @@
                         "name": "Siyah Çay",
                         "description": "Demlenmiş siyah çay",
                         "price": 5,
-                        "image": "cay_siyah.jpg"
+                        "image": "https://i.nefisyemektarifleri.com/2023/09/28/cay-kac-kalori.jpg"
                     },
                     {
                         "id": 10,
                         "name": "Yeşil Çay",
                         "description": "Demlenmiş yeşil çay",
                         "price": 6,
-                        "image": "cay_yesil.jpg"
+                        "image": "https://www.buyukanadoluhastanesi.com/images/news/actual/Yesil_Cayin_Faydalari_Nelerdir_-_Buyuk_Anadolu_Hastanesi.jpg"
                     },
                     {
                         "id": 11,
                         "name": "Bitki Çayı",
                         "description": "Farklı bitki çayı seçenekleri",
                         "price": 7,
-                        "image": "cay_bitki.jpg"
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeArKsVirtne9hIM0_kOloaBJoujyKauOlHQ&s"
                     },
                     {
                         "id": 12,
                         "name": "Türk Kahvesi",
                         "description": "Geleneksel Türk kahvesi",
                         "price": 10,
-                        "image": "kahve_turk.jpg"
+                        "image": "https://sakiproducts.com/cdn/shop/articles/What-is-Turkish-Coffee-Thumbnail_640x640.jpg?v=1656428495"
                     },
                     {
                         "id": 13,
                         "name": "Espresso",
                         "description": "Güçlü espresso kahvesi",
                         "price": 12,
-                        "image": "kahve_espresso.jpg"
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg/1200px-Tazzina_di_caff%C3%A8_a_Ventimiglia.jpg"
                     },
                     {
                         "id": 14,
                         "name": "Cappuccino",
                         "description": "Sütlü kahve",
                         "price": 15,
-                        "image": "kahve_cappuccino.jpg"
+                        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Cappuccino_at_Sightglass_Coffee.jpg/1200px-Cappuccino_at_Sightglass_Coffee.jpg"
                     },
                     {
                         "id": 15,
                         "name": "Portakal Suyu",
                         "description": "Taze sıkılmış portakal suyu",
                         "price": 8,
-                        "image": "meyve_suyu_portakal.jpg"
+                        "image": "https://www.tasocakfirin.com/image/cache/catalog/products_2021/Taze-S%C4%B1k%C4%B1lm%C4%B1%C5%9F-Portakal-Suyu-1000x1000.jpg"
                     },
                     {
                         "id": 16,
                         "name": "Elma Suyu",
                         "description": "Taze sıkılmış elma suyu",
                         "price": 8,
-                        "image": "meyve_suyu_elma.jpg"
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7eCQgd0EDnEcpBnyqsErRWddpl7tIqAaSNw&s"
                     },
                     {
                         "id": 17,
                         "name": "Sade Süt",
                         "description": "Soğuk sade süt",
                         "price": 5,
-                        "image": "sut_sade.jpg"
+                        "image": "https://adilefendidiyarbakir.com/resimler/urunler/resim/17039342471/sade-sut-resim-17039343841.webp"
                     },
                     {
                         "id": 18,
                         "name": "Çikolatalı Süt",
                         "description": "Soğuk çikolatalı süt",
                         "price": 6,
-                        "image": "sut_cikolatali.jpg"
+                        "image": "https://i.lezzet.com.tr/images-xxlarge-secondary/kakaodan-cikolatali-sut-nasil-yapilir-fc783e36-772e-49dd-b4b9-56c7107b0dc7"
                     }
                 ]
             }
@@ -144,91 +144,91 @@
                         "name": "Tavuklu Sandviç",
                         "description": "Izgara tavuk, marul, domates, sos",
                         "price": 25,
-                        "image": "sandvic_tavuklu.jpg"
+                        "image": "https://i.ytimg.com/vi/Oky_cpVUHF0/maxresdefault.jpg"
                     },
                     {
                         "id": 20,
                         "name": "Ton Balıklı Sandviç",
                         "description": "Ton balığı, marul, domates, sos",
                         "price": 27,
-                        "image": "sandvic_ton.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2022/08/ton-balikli-sandvic-aysegul.jpg"
                     },
                     {
                         "id": 21,
                         "name": "Vejetaryen Sandviç",
                         "description": "Sebze karışımı, marul, domates, sos",
                         "price": 23,
-                        "image": "sandvic_vejetaryen.jpg"
+                        "image": "https://productimages.hepsiburada.net/s/63/375-375/110000004882468.jpg"
                     },
                     {
                         "id": 22,
                         "name": "Sezar Salatası",
                         "description": "Marul, parmesan, kruton, sezar sos",
                         "price": 30,
-                        "image": "salata_sezar.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2014/10/tavuklu-sezar-salata-sunum-yemekcom.jpg"
                     },
                     {
                         "id": 23,
                         "name": "Akdeniz Salatası",
                         "description": "Marul, zeytin, domates, salatalık, beyaz peynir",
                         "price": 28,
-                        "image": "salata_akdeniz.jpg"
+                        "image": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/ogt/beyaz-peynirli-akdeniz-salatasi.webp"
                     },
                     {
                         "id": 24,
                         "name": "Tavuklu Salata",
                         "description": "Izgara tavuk, marul, domates, salatalık",
                         "price": 32,
-                        "image": "salata_tavuklu.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2023/09/tavuklu-eriste-salatasi-onecikan.jpg"
                     },
                     {
                         "id": 25,
                         "name": "Izgara Tavuk",
                         "description": "Izgara tavuk göğsü, pilav, sebze",
                         "price": 35,
-                        "image": "ana_yemek_izgara_tavuk.jpg"
+                        "image": "https://i.lezzet.com.tr/images-xxlarge-secondary/izgara-tavuk-yapmanin-6-puf-noktasi-c2d269b7-9979-4f0d-b3dc-74771101f813.jpg"
                     },
                     {
                         "id": 26,
                         "name": "Köfte",
                         "description": "Izgara köfte, pilav, sebze",
                         "price": 33,
-                        "image": "ana_yemek_kofte.jpg"
+                        "image": "https://cdn.ye-mek.net/App_UI/Img/out/650/2022/12/ev-koftesi-resimli-yemek-tarifi(11).jpg"
                     },
                     {
                         "id": 27,
                         "name": "Napoliten Makarna",
                         "description": "Napoliten soslu makarna",
                         "price": 25,
-                        "image": "makarna_napoliten.jpg"
+                        "image": "https://d17wu0fn6x6rgz.cloudfront.net/img/w/tarif/mgt/spaghetti-napoliten5.webp"
                     },
                     {
                         "id": 28,
                         "name": "Alfredo Makarna",
                         "description": "Alfredo soslu makarna",
                         "price": 28,
-                        "image": "makarna_alfredo.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2014/09/fettucini-alfredo-sevgililer-gunu-gorsel.jpg"
                     },
                     {
                         "id": 29,
                         "name": "Margherita Pizza",
                         "description": "Mozzarella, domates sosu, fesleğen",
                         "price": 40,
-                        "image": "pizza_margherita.jpg"
+                        "image": "https://d2lswn7b0fl4u2.cloudfront.net/photos/pg-margherita-pizza-1611491820.jpg"
                     },
                     {
                         "id": 30,
                         "name": "Pepperoni Pizza",
                         "description": "Pepperoni, mozzarella, domates sosu",
                         "price": 45,
-                        "image": "pizza_pepperoni.jpg"
+                        "image": "https://www.simplyrecipes.com/thmb/KE6iMblr3R2Db6oE8HdyVsFSj2A=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-3-1024x682-583b275444104ef189d693a64df625da.jpg"
                     },
                     {
                         "id": 31,
                         "name": "Dört Peynirli Pizza",
                         "description": "Mozzarella, gorgonzola, parmesan, rokfor",
                         "price": 50,
-                        "image": "pizza_dort_peynirli.jpg"
+                        "image": "https://i.lezzet.com.tr/images-xxlarge/dort_peynirli_pizza-9e5da9b4-4284-4522-aa00-9440bc5e6c66"
                     }
                 ],
                 "içecekler": [
@@ -237,56 +237,56 @@
                         "name": "Limonlu Soda",
                         "description": "Limon aromalı soda",
                         "price": 7,
-                        "image": "soda_limonlu.jpg"
+                        "image": "https://www.medicalpark.com.tr/_uploads/_images/_healthGuide/7Atc5O04.jpg"
                     },
                     {
                         "id": 33,
                         "name": "Doğal Maden Suyu",
                         "description": "Doğal maden suyu",
                         "price": 5,
-                        "image": "soda_dogal.jpg"
+                        "image": "https://i20.haber7.net/resize/1280x720//haber/haber7/photos/2017/37/maden_suyunun_inanilmaz_faydalari_gunde_bir_bardak_icerseniz_1505377306_6605.jpg"
                     },
                     {
                         "id": 34,
                         "name": "Nar Suyu",
                         "description": "Taze sıkılmış nar suyu",
                         "price": 10,
-                        "image": "meyve_suyu_nar.jpg"
+                        "image": "https://cdn.yemek.com/uploads/2018/12/nar-suyunun-faydalari-1.jpg"
                     },
                     {
                         "id": 35,
                         "name": "Vişne Suyu",
                         "description": "Taze sıkılmış vişne suyu",
                         "price": 10,
-                        "image": "meyve_suyu_visne.jpg"
+                        "image": "https://i.ytimg.com/vi/t3R_JHW6K_U/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBC9RGqj-EFd21Ple_o3SiYza6J7Q"
                     },
                     {
                         "id": 36,
                         "name": "Kola",
                         "description": "Kutu kola",
                         "price": 7,
-                        "image": "gazli_icecek_kola.jpg"
+                        "image": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.lezzet.com.tr%2Flezzetten-haberler%2Fkola-ne-kadar-kafein-icerir&psig=AOvVaw0-p2x6obOcmitsE-U2IAsl&ust=1724319152631000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCOj25MbjhYgDFQAAAAAdAAAAABAE"
                     },
                     {
                         "id": 37,
                         "name": "Gazoz",
                         "description": "Kutu gazoz",
                         "price": 7,
-                        "image": "gazli_icecek_gazoz.jpg"
+                        "image": "https://bosnaklar1.com/wp-content/uploads/2018/03/1-69.jpg"
                     },
                     {
                         "id": 38,
                         "name": "Buzlu Çay (Şeftali)",
                         "description": "Şeftali aromalı buzlu çay",
                         "price": 8,
-                        "image": "buzlu_cay_seftali.jpg"
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ5mza3tvGdkEjTszkEl7xQhreTE3NeKDccIEvBHia0sLKJhOuXSRyfNJgp6MToP_iIOJM&usqp=CAU"
                     },
                     {
                         "id": 39,
                         "name": "Buzlu Çay (Limon)",
                         "description": "Limon aromalı buzlu çay",
                         "price": 8,
-                        "image": "buzlu_cay_limon.jpg"
+                        "image": "https://yemekdergisi.net/wp-content/uploads/2024/03/alkollu-buzlu-cay-8-kisilik-.jpg"
                     }
                 ]
             }
@@ -300,70 +300,70 @@
                         "name": "Mercimek Çorbası",
                         "description": "Mercimek, soğan, havuç, baharatlar",
                         "price": 18,
-                        "image": "corba_mercimek.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2015/02/mercimek-corbasi-yemekcom.jpg"
                     },
                     {
                         "id": 41,
                         "name": "Domates Çorbası",
                         "description": "Domates, soğan, baharatlar, krema",
                         "price": 18,
-                        "image": "corba_domates.jpg"
+                        "image": "https://www.karaca.com/blog/wp-content/uploads/2024/01/domatescorbasi2.webp"
                     },
                     {
                         "id": 42,
                         "name": "Izgara Biftek",
                         "description": "Izgara biftek, patates püresi, sebze",
                         "price": 60,
-                        "image": "ana_yemek_biftek.jpg"
+                        "image": "https://image.hurimg.com/i/hurriyet/75/0x0/647727c7c03c0e23a8d92b1c.jpg"
                     },
                     {
                         "id": 43,
                         "name": "Kuzu Pirzola",
                         "description": "Izgara kuzu pirzola, pilav, sebze",
                         "price": 65,
-                        "image": "ana_yemek_kuzu.jpg"
+                        "image": "https://cdn.myikas.com/images/de6ba706-5328-4988-ad6b-560f23aaba30/e520f46e-feda-4fe2-a48d-8d74a2e812a2/3840/pirzola.webp"
                     },
                     {
                         "id": 44,
                         "name": "Levrek Izgara",
                         "description": "Izgara levrek, roka salatası, limon",
                         "price": 55,
-                        "image": "ana_yemek_levrek.jpg"
+                        "image": "https://www.unileverfoodsolutions.com.tr/dam/global-ufs/mcos/TURKEY/calcmenu/recipes/TR-recipes/general/b%C3%BCt%C3%BCn-levrek-izgara-ye%C5%9Fil-salata-misket-limonu-ve-susam-i%CC%87le/main-header.jpg"
                     },
                     {
                         "id": 45,
                         "name": "Patates Kızartması",
                         "description": "Kızarmış patates dilimleri",
                         "price": 15,
-                        "image": "yan_lezzet_patates.jpg"
+                        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVT_Pp3Pn5Y74L29wsRoKW268E9pyYUKAyFw&s"
                     },
                     {
                         "id": 46,
                         "name": "Sebze Sote",
                         "description": "Karışık sebzelerin sotelenmesi",
                         "price": 20,
-                        "image": "yan_lezzet_sebze.jpg"
+                        "image": "https://i.lezzet.com.tr/images-xxlarge-recipe/soya_soslu_karisik_sebze_sote-d8ba25f3-d334-47b2-90de-a56a8b5f6ee8.jpg"
                     },
                     {
                         "id": 47,
                         "name": "Profiterol",
                         "description": "Profiterol topları, çikolata sosu",
                         "price": 25,
-                        "image": "tatli_profiterol.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/940/940/uploads/2014/11/profiterol-yemekcom2.jpg"
                     },
                     {
                         "id": 48,
                         "name": "Sufle",
                         "description": "Çikolatalı sıcak sufle",
                         "price": 28,
-                        "image": "tatli_sufle.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2023/04/tereyagsiz-sufle-yemekcom.jpg"
                     },
                     {
                         "id": 49,
                         "name": "Tiramisu",
                         "description": "Kahve aromalı İtalyan tatlısı",
                         "price": 30,
-                        "image": "tatli_tiramisu.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/1250/833/uploads/2021/03/kedidili-tiramisu-yemekcom.jpg"
                     }
                 ],
                 "içecekler": [
@@ -372,56 +372,49 @@
                         "name": "Kırmızı Şarap",
                         "description": "Bir kadeh kırmızı şarap",
                         "price": 40,
-                        "image": "alkollu_sarap_kirmizi.jpg"
+                        "image": "https://tr.nudeglass.com/cdn/shop/files/RoundUpDustyroseRedwineSplash1-1.jpg?v=1708097987&width=1800"
                     },
                     {
                         "id": 51,
                         "name": "Beyaz Şarap",
                         "description": "Bir kadeh beyaz şarap",
                         "price": 40,
-                        "image": "alkollu_sarap_beyaz.jpg"
+                        "image": "https://cdn.akakce.com/z/pasabahce/pasabahce-nude-climats-2-li-beyaz-sarap-i-66072.jpg"
                     },
                     {
                         "id": 52,
                         "name": "Lager Bira",
                         "description": "Bir şişe lager bira",
                         "price": 25,
-                        "image": "alkollu_bira_lager.jpg"
+                        "image": "https://kopuurt.com/wp-content/uploads/2023/04/pilsner_ve_lager_nedir.webp"
                     },
                     {
                         "id": 53,
                         "name": "Ale Bira",
                         "description": "Bir şişe ale bira",
                         "price": 25,
-                        "image": "alkollu_bira_ale.jpg"
+                        "image": "https://mudavim.net/wp-content/uploads/2016/03/ale-bira-scaled.jpeg"
                     },
                     {
                         "id": 54,
                         "name": "Meyve Kokteyli",
                         "description": "Çeşitli meyve suları karışımı",
                         "price": 20,
-                        "image": "alkolsuz_kokteyl.jpg"
-                    },
-                    {
-                        "id": 55,
-                        "name": "Soda",
-                        "description": "Doğal maden suyu",
-                        "price": 5,
-                        "image": "soda_dogal.jpg"
+                        "image": "https://i.lezzet.com.tr/images-800x600/a936d7ff-daeb-4267-966b-783ae4e82044-e59f3470-588a-459a-aa13-43e554f395ff"
                     },
                     {
                         "id": 56,
                         "name": "Mojito",
                         "description": "Nane, limon, şeker, soda, rom",
                         "price": 35,
-                        "image": "kokteyl_mojito.jpg"
+                        "image": "https://cdn.yemek.com/mnresize/940/940/uploads/2014/07/mojito-tarifi-yepyeni-11.jpg"
                     },
                     {
                         "id": 57,
                         "name": "Margarita",
                         "description": "Tekila, lime, triple sec",
                         "price": 35,
-                        "image": "kokteyl_margarita.jpg"
+                        "image": "https://www.gurmemag.com/wp-content/uploads/2023/05/margarita-tarifi.jpg"
                     }
                 ]
             }
